@@ -1,0 +1,13 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "permissions": [
+    { "action": "subagent", "resource": "image-blast-*", "effect": "allow" },
+    { "action": "shell", "resource": "ls *", "effect": "allow" },
+    { "action": "shell", "resource": "node .opencode/scripts/*", "effect": "allow" },
+    { "action": "shell", "resource": "bun install *", "effect": "allow" },
+    { "action": "shell", "resource": "bun run dev *", "effect": "allow" },
+    { "action": "shell", "resource": "lsof *", "effect": "allow" },
+    { "action": "shell", "resource": "mkdir *", "effect": "allow" },
+    { "action": "shell", "resource": "cd *", "effect": "allow" }
+  ]
+}

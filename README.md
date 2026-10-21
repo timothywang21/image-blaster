@@ -1,18 +1,18 @@
 <img width="960" height="540" alt="image-blaster-1" src="https://github.com/user-attachments/assets/d294e420-eb48-4f00-b6a8-13005442d1a8" />
 
 ## `image-blaster`
-Creates 3D environments, SFX, and meshes from a single image using Claude skills, World Labs, and FAL. 
+Creates 3D environments, SFX, and meshes from a single image using OpenCode commands, World Labs, and FAL. 
 
 Can take you from an image to a fully meshed 3D environment in < 5 minutes, great for jumpstarting 3D work. Go full blast.
 
 
 ## Quickstart
 
-1. Open a Terminal, enter `git clone https://github.com/neilsonnn/image-blaster`
+1. Open a Terminal, enter `git clone https://github.com/timothywang21/image-blaster`
 2. Enter the directory with `cd image-blaster`
-3. Run `claude` (install with `curl -fsSL https://claude.ai/install.sh | bash`)
-4. Say hello to Claude, and give them your API key for [World Labs](https://platform.worldlabs.ai/) and [FAL](https://fal.ai/).
-5. Put an image into `input/` directory and ask Claude to `blast it and confirm each step with me`.
+3. Run `opencode` (install with `curl -fsSL https://opencode.ai/install -sSf | bash`)
+4. Start an OpenCode session, and give it your API key for [World Labs](https://platform.worldlabs.ai/) and [FAL](https://fal.ai/).
+5. Put an image into `input/` directory and ask OpenCode to `blast it and confirm each step with me`.
 
 ### Description
 
@@ -57,4 +57,4 @@ IMAGE-BLASTER uses a few generation models:
 
 ### Development
 
-- remove `/app` from the `.claudeignore` file to give Claude the ability to change the React viewer.
+- The React viewer in `app/` is a normal part of the repository. To change it, just work in the repo as usual — OpenCode has no `.claudeignore`-style exclusion to remove.
